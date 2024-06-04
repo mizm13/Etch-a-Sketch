@@ -55,14 +55,6 @@ function gridCreation(num)
                 cellDiv.style.backgroundColor = "white";
             });
 
-            const eraser = document.querySelector("#eraser");
-
-            //eraser for removing parts of the grid
-            eraser.addEventListener("mouseover", ()=> {
-
-                cellDiv.style.backgroundColor = "white";
-            });
-
 
         }
 
